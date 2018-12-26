@@ -1,0 +1,5 @@
+/target
+/gitStorage-server/target
+/gitStorage-common/target
+/gitStorage-agent/target
+/build/target

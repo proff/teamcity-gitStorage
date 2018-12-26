@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.2" />
+          <option name="apiVersion" value="1.2" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesState" value="warn" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="gitStorage-agent" />
+    <orderEntry type="module" module-name="gitStorage-common" />
+    <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
+    <orderEntry type="module" module-name="gitStorage-server" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.2.71" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test:1.2.71" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains.kotlin:kotlin-test-common:1.2.71" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.71" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jgit:org.eclipse.jgit:5.1.2.201810061102-r" level="project" />
+    <orderEntry type="library" name="Maven: com.jcraft:jsch:0.1.54" level="project" />
+    <orderEntry type="library" name="Maven: com.jcraft:jzlib:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.javaewah:JavaEWAH:1.1.6" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: org.jetbrains.teamcity.common-impl:common-impl:1.0">
+        <CLASSES>
+          <root url="jar://C:/BuildAgent/lib/common-impl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: org.jetbrains.teamcity.agent:agent:1.0">
+        <CLASSES>
+          <root url="jar://C:/BuildAgent/lib/agent.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: org.jetbrains.teamcity.server:agent:1.0">
+        <CLASSES>
+          <root url="jar://D:/TeamCity/webapps/ROOT/WEB-INF/lib/server.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: com.beust:klaxon:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.2.60" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.0.1" level="project" />
+  </component>
+</module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/build/build.iml" filepath="$PROJECT_DIR$/build/build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gitStorage.iml" filepath="$PROJECT_DIR$/gitStorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gitStorage-agent/gitStorage-agent.iml" filepath="$PROJECT_DIR$/gitStorage-agent/gitStorage-agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gitStorage-common/gitStorage-common.iml" filepath="$PROJECT_DIR$/gitStorage-common/gitStorage-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gitStorage-server/gitStorage-server.iml" filepath="$PROJECT_DIR$/gitStorage-server/gitStorage-server.iml" />
+    </modules>
+  </component>
+</project>
