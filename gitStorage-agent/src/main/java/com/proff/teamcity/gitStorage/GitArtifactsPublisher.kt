@@ -96,7 +96,7 @@ class GitArtifactsPublisher(dispatcher: EventDispatcher<AgentLifeCycleListener>,
                     tree.append(name, REGULAR_FILE, ObjectId.fromString(hashes[file.key]))
                     publishedArtifacts.add(ArtifactDataInstance.create(name, file.key.length()))
                 }
-                val zipMap = tracker.currentBuild.sharedConfigParameters["gitStorage.zipMap"]!!
+                val zipMap = tracker.currentBuild.sharedConfigParameters["gitStorage.zipMap"]?:""
                 val zipMapParsed = zipMap.split("\n").filter { it.isNotEmpty() }.map { it.split("=>").map { it.trim() } }.map { it[0] to it[1] }.toMap()
                 tracker.currentBuild.buildLogger.message("map: $zipMap")
 
