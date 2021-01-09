@@ -13,7 +13,7 @@
       <teamcity.gitStorage.plugin.version>snapshot-${maven.build.timestamp}</teamcity.gitStorage.plugin.version>
       <teamcity.gitStorage.plugin.vendorName>Plugin vendor name</teamcity.gitStorage.plugin.vendorName>
       <teamcity.gitStorage.plugin.vendorUrl>Plugin vendor URL</teamcity.gitStorage.plugin.vendorUrl>
-      <kotlin.version>1.2.71</kotlin.version>
+        <kotlin.version>1.4.21</kotlin.version>
   </properties>
   <dependencies>
       <dependency>

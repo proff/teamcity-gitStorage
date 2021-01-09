@@ -29,25 +29,9 @@
         </dependency>
     </dependencies>
     <repositories>
-        <repository>
-            <id>maven</id>
-            <url>http://central.maven.org</url>
-        </repository>
-        <repository>
-            <id>JetBrains</id>
-            <url>http://repository.jetbrains.com/all</url>
-        </repository>
-        <repository>
-            <id>jgit-repository</id>
-            <url>https://repo.eclipse.org/content/groups/releases/</url>
-        </repository>
-        <repository>
-            <id>Spring Lib M</id>
-            <url>http://repo.spring.io/libs-milestone/</url>
-        </repository>
-        <repository>
-            <id>central</id>
-            <url>http://jcenter.bintray.com</url>
+    <repository>
+        <id>JetBrains</id>
+        <url>https://download.jetbrains.com/teamcity-repository</url>
         </repository>
     </repositories>
     <pluginRepositories>
