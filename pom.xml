@@ -28,7 +28,6 @@
             <version>5.10.0.202012080955-r</version>
         </dependency>
     </dependencies>
-
     <repositories>
         <repository>
             <id>maven</id>
@@ -65,6 +64,7 @@
                 <version>0.4</version>
                 <configuration>
                     <teamcitySourceURL>https://download-cf.jetbrains.com/teamcity</teamcitySourceURL>
+                    <downloadQuietly>true</downloadQuietly>
                 </configuration>
             </plugin>
         </plugins>
