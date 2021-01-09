@@ -26,10 +26,30 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-            <scope>compile</scope>
+            <groupId>org.jetbrains.kotlinx</groupId>
+            <artifactId>kotlinx-coroutines-core</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.teamcity.common-impl</groupId>
+            <artifactId>common-impl</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/../servers/${teamcity-version}/buildAgent/lib/common-impl.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.teamcity.agent</groupId>
+            <artifactId>agent</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/../servers/${teamcity-version}/buildAgent/lib/agent.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.teamcity.server</groupId>
+            <artifactId>agent</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${pom.basedir}/../servers/${teamcity-version}/webapps/ROOT/WEB-INF/lib/server.jar</systemPath>
         </dependency>
     </dependencies>
 
