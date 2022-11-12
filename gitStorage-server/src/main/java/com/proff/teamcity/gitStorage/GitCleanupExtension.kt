@@ -85,7 +85,7 @@ class GitCleanupExtension(private val helper: ServerArtifactHelper/*,
         }
         for (path in paths){
             //File("d:/gitStorage/cleanup.txt").appendText("gc $path\n\n")
-            ProcessBuilder("C:\\Program Files\\Git\\bin\\git.exe", "gc").directory(File(path)).start()
+            ProcessBuilder("/usr/bin/git", "gc").directory(File(path)).start()
         }
         /*} catch (e: Throwable) {
             val sw = StringWriter()
