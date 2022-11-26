@@ -7,8 +7,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <properties>
-        <teamcity-version>2020.2</teamcity-version>
-        <kotlin.version>1.4.21</kotlin.version>
+        <teamcity-version>2022.10</teamcity-version>
+        <kotlin.version>1.7.20</kotlin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -25,7 +25,7 @@
         <dependency>
             <groupId>org.eclipse.jgit</groupId>
             <artifactId>org.eclipse.jgit</artifactId>
-            <version>5.10.0.202012080955-r</version>
+            <version>6.3.0.202209071007-r</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
